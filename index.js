@@ -241,7 +241,7 @@ Notes:
 Pros: Efficient deletion (O(log n)).
 Cons: Training and transforming become really complex, since an arbitrary unit is affected and updating a heap in such conditions is tough. Total time complexity is reduced to O(n) (remove O(n) + insert O(log n)) but implementing is really hard and untidy)
 
-*Option 2: Three separate heaps (pikemen, archers, cavalry)
+*Option 2: Three separate heaps (pikemen, archers, knights)
 Pros: Efficient deletion (compare 3 roots). Compare θ(1), Extract O(log n)
 Cons: Always training/transforming the "best" unit. Makes no sense as a player (although this wasn't asked in the task) to transform your best unit of a type. Mantaining Heap structure between three heaps might be hard with transformations, but less complex than option 1, because you are moving one unit from a Heap to another. O(log n) (If chosen an implementation that improves an arbitrary unit, the same problem with option 1 arises).
 Note: In terms of complexity this is the best option.
@@ -267,5 +267,6 @@ Cons:
 One may argue that the requirement "any unit can be trained or transformed" is not met. I consider this to be partially true: my algorithm always modifies the first unit found of the given type, meaning no other unit is affected unless the first one is removed.
 
 However, since every unit implements the train method, each one is capable of being trained or transformed. So technically, every unit could be modified, it just doesn't happen in most cases.
+
 
 */
