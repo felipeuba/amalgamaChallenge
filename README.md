@@ -33,7 +33,7 @@ Here are the models, in case you are curious (I would love to get the opportunit
 
 ---
 
-### Option 2: Three separate heaps (pikemen, archers, cavalry)
+### Option 2: Three separate heaps (pikemen, archers, knights)
 
 **Pros:**
 - Efficient deletion (compare 3 roots). `Compare θ(1)`, `Extract O(log n)`
