@@ -2,9 +2,9 @@ Hi!
 
 I also left the following notes in the file, in case it feels more natural to read it after reviewing the code.
 
-- Why I chose to use Javascript: Firstly, it is the language I have the most experience with. Secondly, for web development and the technologies mentioned in the job application, this is the most used language, so I saw fit to showcase my skills with it.
+* Why I chose to use Javascript: Firstly, it is the language I have the most experience with. Secondly, for web development and the technologies mentioned in the job application, this is the most used language, so I saw fit to showcase my skills with it.
 
-- About the modelling: I struggled the most with choosing how to represent the army. I thought of several models using max heaps to optimize removing the most valuable soldiers, but the tradeoffs weren't worth it. Here are the models, in case you are curious (I would love to get the opportunity to explain myself further in a meeting):
+* About the modelling: I struggled the most with choosing how to represent the army. I thought of several models using max heaps to optimize removing the most valuable soldiers, but the tradeoffs weren't worth it. Here are the models, in case you are curious (I would love to get the opportunity to explain myself further in a meeting):
 
 *Option 1: Single max-heap of all units
 Pros: Efficient deletion (O(log n)).
